@@ -8,7 +8,6 @@ use Filament\Pages\Page;
 
 final class Overview extends Page
 {
-    protected static string $view = 'currency-context-filament::overview';
+    protected string $view = 'currency-context-filament::overview';
     protected static ?string $title = 'Currency Context';
 }
-
