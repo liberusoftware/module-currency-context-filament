@@ -13,4 +13,3 @@ final class CurrencyContextFilamentServiceProvider extends ServiceProvider
         $this->loadViewsFrom(__DIR__.'/../resources/views', 'currency-context-filament');
     }
 }
-
